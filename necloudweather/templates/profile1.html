@@ -1,0 +1,53 @@
+{% load static %}
+<html>
+  <head>
+   <script >
+      $(function(){
+          $('.datepicker').datepicker({
+              format: 'mm/dd/yyyy',
+              endDate: '+0d',
+              autoclose: true
+          });
+      });   
+      </script>
+  </head>
+<body style="background: white">
+<div  >
+<h3 align ="center"> Your Saved Iteams </h3>
+</br>
+<table class="table table-striped" >
+<thead>
+	<tr>
+		<th align="right"> S.No </th>
+		<th align="center"> Regions </th>
+		<th align="center"> Services </th>
+		<th align="center"> Actions </th>
+	</tr>
+</thead>
+{% for sv in svs %}
+<tr>
+	<td>{{forloop.counter}}</td>
+
+	<td>{{ sv.regions }}
+	</td>
+	<td>{{sv.services}}
+	</td>
+	<td></td>
+	<td> 
+    <form action="/necloudweather/profile_output/" method="post">{% csrf_token %}
+    <input type="hidden" value="{{sv.regions}}" name="regions">
+    <input type="hidden" name="search_id" value="{{sv.id}}"> 
+    <input type="hidden" name="services" value="{{sv.services}}">
+ 
+        From :<input class="datepicker" style="color:black;" name="fromdate"><br>
+
+            To : <input class="datepicker" style="color:black;" name="todate">
+            <input type="submit" value="Run" class="btn btn-info">
+    </form> 
+    </td>
+ </tr>
+{% endfor %}
+</table>
+</div>
+</body>
+</html>

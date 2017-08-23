@@ -1,0 +1,1273 @@
+[23/Jun/2017 07:05:41] "GET / HTTP/1.1" 404 2346
+Validating models...
+
+0 errors found
+June 23, 2017 - 07:05:29
+Django version 1.5.11, using settings 'cloudweather.settings'
+Development server is running at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[23/Jun/2017 07:07:22] "GET / HTTP/1.1" 404 2449
+[23/Jun/2017 07:07:24] "GET / HTTP/1.1" 404 2449
+[23/Jun/2017 07:07:27] "GET / HTTP/1.1" 404 2449
+Validating models...
+
+0 errors found
+June 23, 2017 - 07:06:45
+Django version 1.5.11, using settings 'cloudweather.settings'
+Development server is running at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[23/Jun/2017 07:07:43] "GET / HTTP/1.1" 302 0
+[23/Jun/2017 07:07:43] "GET /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 07:07:43] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 07:07:44] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 07:09:12] "GET / HTTP/1.1" 302 0
+[23/Jun/2017 07:09:12] "GET /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 07:09:12] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 07:11:53] "GET /login/ HTTP/1.1" 200 2575
+[23/Jun/2017 07:12:00] "GET /registration/ HTTP/1.1" 200 2576
+[23/Jun/2017 07:12:03] "POST /necloudweather/output/ HTTP/1.1" 200 2377
+[23/Jun/2017 07:49:32] "GET /login/ HTTP/1.1" 200 2575
+[23/Jun/2017 07:50:45] "GET /registration/ HTTP/1.1" 200 2576
+[23/Jun/2017 07:51:00] "GET /login/ HTTP/1.1" 200 2575
+[23/Jun/2017 07:51:05] "POST /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 07:51:05] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 07:51:06] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+Validating models...
+
+0 errors found
+June 23, 2017 - 07:07:42
+Django version 1.5.11, using settings 'cloudweather.settings'
+Development server is running at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+------------------
+[]
+[]
+[]
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+------------------
+['AWS Certificate Manager ', 'AWS CloudFormation ', 'AWS CloudHSM ', 'AWS CloudTrail ', 'AWS CodeBuild ']
+['AWS Certificate Manager', 'AWS CloudFormation', 'AWS CloudHSM', 'AWS CloudTrail', 'AWS CodeBuild']
+['Montreal']
+0
+NA
+Montreal
+AWS Certificate Manager (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f3ff535ce17326d6828'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d7d'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7b'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f701f535ce5279fe4293'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed0'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab2'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+Montreal
+AWS CloudFormation (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d682d'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d82'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a80'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4298'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed5'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab7'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+Montreal
+AWS CloudHSM (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d6832'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d87'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a85'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe429d'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff1f535ce080d8abeda'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a1af535ce4ce6db6abc'), u'service': u'AWS CloudHSM (Montreal)'}
+--
+Montreal
+AWS CloudTrail (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d6837'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354063f535ce04c29a1d8c'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+{u'd[23/Jun/2017 07:51:58] "POST /necloudweather/output/ HTTP/1.1" 200 7985
+[23/Jun/2017 07:52:25] "GET /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 07:52:25] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 07:54:27] "GET /login/ HTTP/1.1" 200 2575
+ate': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a8a'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe42a2'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff1f535ce080d8abedf'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a1af535ce4ce6db6ac1'), u'service': u'AWS CloudTrail (Montreal)'}
+--
+Montreal
+AWS CodeBuild (Montreal)
+---
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+[23/Jun/2017 09:05:01] "GET / HTTP/1.1" 302 0
+[23/Jun/2017 09:05:01] "GET /necloudweather/ HTTP/1.1" 500 73034
+Validating models...
+
+0 errors found
+June 23, 2017 - 09:04:45
+Django version 1.5.11, using settings 'cloudweather.settings'
+Development server is running at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+[23/Jun/2017 09:05:28] "GET /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 09:05:28] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[23/Jun/2017 11:01:05] "GET / HTTP/1.1" 302 0
+[23/Jun/2017 11:01:05] "GET /necloudweather HTTP/1.1" 301 0
+[23/Jun/2017 11:01:05] "GET /necloudweather/ HTTP/1.1" 200 22608
+[23/Jun/2017 16:13:21] "GET / HTTP/1.0" 302 0
+[23/Jun/2017 20:39:24] "GET / HTTP/1.1" 302 0
+[23/Jun/2017 21:11:22] "GET /muieblackcat HTTP/1.1" 404 2484
+[23/Jun/2017 21:11:23] "GET //phpMyAdmin/scripts/setup.php HTTP/1.1" 404 2534
+[23/Jun/2017 21:11:23] "GET //phpmyadmin/scripts/setup.php HTTP/1.1" 404 2534
+[23/Jun/2017 21:11:24] "GET //pma/scripts/setup.php HTTP/1.1" 404 2513
+[23/Jun/2017 21:11:24] "GET //myadmin/scripts/setup.php HTTP/1.1" 404 2525
+[23/Jun/2017 21:11:25] "GET //MyAdmin/scripts/setup.php HTTP/1.1" 404 2525
+[24/Jun/2017 00:42:18] "GET / HTTP/1.1" 302 0
+[24/Jun/2017 00:47:14] code 400, message Bad request version ('\xc0\x14\xc0')
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 143, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib64/python2.7/wsgiref/simple_server.py", line 117, in handle
+    if not self.parse_request(): # An error code has been sent, just exit
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 253, in parse_request
+    self.send_error(400, "Bad request version (%r)" % version)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 368, in send_error
+    self.send_response(code, message)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 385, in send_response
+    self.log_request(code)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 422, in log_request
+    self.requestline, str(code), str(size))
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 155, in log_message
+    msg = "[%s] %s\n" % (self.log_date_time_string(), format % args)
+UnicodeDecodeError: 'ascii' codec can't decode byte 0x8a in position 5: ordinal not in range(128)
+[24/Jun/2017 00:47:15] "GET / HTTP/1.1" 302 0
+[24/Jun/2017 01:02:49] "GET / HTTP/1.1" 302 0
+[24/Jun/2017 12:20:31] "GET / HTTP/1.1" 302 0
+[24/Jun/2017 13:15:39] "GET /necloudweather HTTP/1.1" 301 0
+[24/Jun/2017 13:15:39] "GET /necloudweather/ HTTP/1.1" 200 22608
+[24/Jun/2017 13:28:58] "GET /hndUnblock.cgi HTTP/1.0" 404 2490
+[24/Jun/2017 13:28:59] "GET /tmUnblock.cgi HTTP/1.0" 404 2487
+[24/Jun/2017 13:29:00] "GET /moo HTTP/1.0" 404 2457
+[24/Jun/2017 13:55:35] "GET / HTTP/1.1" 302 0
+[24/Jun/2017 13:55:36] "GET /necloudweather HTTP/1.1" 301 0
+[24/Jun/2017 13:55:36] "GET /necloudweather/ HTTP/1.1" 200 22608
+[24/Jun/2017 14:45:17] "GET / HTTP/1.0" 302 0
+[24/Jun/2017 18:42:31] "GET /necloudweather HTTP/1.1" 301 0
+[24/Jun/2017 18:42:32] "GET /necloudweather/ HTTP/1.1" 200 22608
+[24/Jun/2017 21:19:54] "GET / HTTP/1.0" 302 0
+[24/Jun/2017 21:20:04] "GET / HTTP/1.0" 302 0
+[25/Jun/2017 02:45:38] "GET / HTTP/1.0" 302 0
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/site-packages/django/core/servers/basehttp.py", line 143, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib64/python2.7/wsgiref/simple_server.py", line 116, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib64/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[25/Jun/2017 08:08:15] "HEAD /robots.txt HTTP/1.0" 404 0
+[25/Jun/2017 11:47:07] "GET / HTTP/1.1" 302 0
+[25/Jun/2017 11:47:08] "GET /necloudweather HTTP/1.1" 301 0
+[25/Jun/2017 11:47:08] "GET /necloudweather/ HTTP/1.1" 200 22608
+[25/Jun/2017 15:20:49] "GET / HTTP/1.1" 302 0
+[25/Jun/2017 15:20:50] "GET /necloudweather HTTP/1.1" 301 0
+[25/Jun/2017 15:20:50] "GET /necloudweather/ HTTP/1.1" 200 22608
+[25/Jun/2017 15:33:02] "GET / HTTP/1.1" 302 0
+[25/Jun/2017 17:15:24] "GET / HTTP/1.0" 302 0
+[25/Jun/2017 19:56:53] "GET /necloudweather HTTP/1.1" 301 0
+[25/Jun/2017 19:56:54] "GET /necloudweather/ HTTP/1.1" 200 22608
+[25/Jun/2017 19:57:53] "GET /x HTTP/1.1" 404 2483
+[25/Jun/2017 22:51:28] "GET / HTTP/1.1" 302 0
+[26/Jun/2017 02:35:24] "GET /manager/html HTTP/1.1" 404 2487
+[26/Jun/2017 03:25:33] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 04:35:37] "GET / HTTP/1.1" 302 0
+[26/Jun/2017 07:41:52] "GET login.cgi HTTP/1.0" 404 1647
+[26/Jun/2017 12:24:55] "GET / HTTP/1.1" 302 0
+[26/Jun/2017 12:24:56] "GET /necloudweather HTTP/1.1" 301 0
+[26/Jun/2017 12:24:56] "GET /necloudweather/ HTTP/1.1" 200 22608
+[26/Jun/2017 15:36:19] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 17:51:32] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 18:46:01] "GET / HTTP/1.1" 302 0
+[26/Jun/2017 23:58:38] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 23:58:40] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 23:58:45] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 23:58:46] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 23:58:57] "GET / HTTP/1.0" 302 0
+[26/Jun/2017 23:59:16] "GET / HTTP/1.0" 302 0
+[27/Jun/2017 00:43:18] "GET / HTTP/1.1" 302 0
+[27/Jun/2017 00:43:19] "GET /necloudweather HTTP/1.1" 301 0
+[27/Jun/2017 00:43:20] "GET /necloudweather/ HTTP/1.1" 200 22608
+[27/Jun/2017 00:43:21] "GET /index.action HTTP/1.1" 404 2484
+[27/Jun/2017 09:14:55] "HEAD http://52.66.116.26:80/mysql/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:55] "HEAD http://52.66.116.26:80/mysql/sqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:55] "HEAD http://52.66.116.26:80/mysql/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:56] "HEAD http://52.66.116.26:80/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:56] "HEAD http://52.66.116.26:80/phpMyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:56] "HEAD http://52.66.116.26:80/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:57] "HEAD http://52.66.116.26:80/phpmyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:57] "HEAD http://52.66.116.26:80/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:57] "HEAD http://52.66.116.26:80/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:57] "HEAD http://52.66.116.26:80/phpmyadmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:58] "HEAD http://52.66.116.26:80/2phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:58] "HEAD http://52.66.116.26:80/phpmy/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:58] "HEAD http://52.66.116.26:80/phppma/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:58] "HEAD http://52.66.116.26:80/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:59] "HEAD http://52.66.116.26:80/shopdb/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:59] "HEAD http://52.66.116.26:80/MyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:14:59] "HEAD http://52.66.116.26:80/program/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:00] "HEAD http://52.66.116.26:80/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:00] "HEAD http://52.66.116.26:80/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:00] "HEAD http://52.66.116.26:80/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:00] "HEAD http://52.66.116.26:80/db/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:01] "HEAD http://52.66.116.26:80/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:01] "HEAD http://52.66.116.26:80/mysql/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:01] "HEAD http://52.66.116.26:80/database/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:01] "HEAD http://52.66.116.26:80/db/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:02] "HEAD http://52.66.116.26:80/db/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:02] "HEAD http://52.66.116.26:80/sqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:02] "HEAD http://52.66.116.26:80/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:03] "HEAD http://52.66.116.26:80/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:03] "HEAD http://52.66.116.26:80/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:03] "HEAD http://52.66.116.26:80/mysqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:03] "HEAD http://52.66.116.26:80/mysql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:04] "HEAD http://52.66.116.26:80/admin/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:04] "HEAD http://52.66.116.26:80/admin/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:04] "HEAD http://52.66.116.26:80/admin/sysadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:04] "HEAD http://52.66.116.26:80/admin/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:05] "HEAD http://52.66.116.26:80/admin/db/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:05] "HEAD http://52.66.116.26:80/admin/web/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:05] "HEAD http://52.66.116.26:80/admin/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:06] "HEAD http://52.66.116.26:80/mysql/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:06] "HEAD http://52.66.116.26:80/mysql/db/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:06] "HEAD http://52.66.116.26:80/mysql/web/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:06] "HEAD http://52.66.116.26:80/mysql/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:07] "HEAD http://52.66.116.26:80/sql/phpmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:07] "HEAD http://52.66.116.26:80/sql/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:07] "HEAD http://52.66.116.26:80/sql/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:07] "HEAD http://52.66.116.26:80/sql/sql/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:08] "HEAD http://52.66.116.26:80/sql/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:08] "HEAD http://52.66.116.26:80/sql/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:08] "HEAD http://52.66.116.26:80/sql/sqlweb/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:09] "HEAD http://52.66.116.26:80/sql/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:09] "HEAD http://52.66.116.26:80/sql/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:09] "HEAD http://52.66.116.26:80/sql/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:09] "HEAD http://52.66.116.26:80/sql/sql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:10] "HEAD http://52.66.116.26:80/sql/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:10] "HEAD http://52.66.116.26:80/sql/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:10] "HEAD http://52.66.116.26:80/sql/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:10] "HEAD http://52.66.116.26:80/db/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:11] "HEAD http://52.66.116.26:80/db/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:11] "HEAD http://52.66.116.26:80/db/dbweb/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:11] "HEAD http://52.66.116.26:80/db/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:12] "HEAD http://52.66.116.26:80/db/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:12] "HEAD http://52.66.116.26:80/db/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:12] "HEAD http://52.66.116.26:80/db/db-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:12] "HEAD http://52.66.116.26:80/db/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:13] "HEAD http://52.66.116.26:80/db/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:13] "HEAD http://52.66.116.26:80/db/phpMyAdmin-3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:13] "HEAD http://52.66.116.26:80/administrator/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:13] "HEAD http://52.66.116.26:80/administrator/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:14] "HEAD http://52.66.116.26:80/administrator/db/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:14] "HEAD http://52.66.116.26:80/administrator/web/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:14] "HEAD http://52.66.116.26:80/administrator/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:15] "HEAD http://52.66.116.26:80/administrator/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:15] "HEAD http://52.66.116.26:80/administrator/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:15] "HEAD http://52.66.116.26:80/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:15] "HEAD http://52.66.116.26:80/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:16] "HEAD http://52.66.116.26:80/phpMyAdmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:16] "HEAD http://52.66.116.26:80/phpMyAdmin-3/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:16] "HEAD http://52.66.116.26:80/php-my-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:16] "HEAD http://52.66.116.26:80/PMA2011/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:17] "HEAD http://52.66.116.26:80/PMA2012/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:17] "HEAD http://52.66.116.26:80/PMA2013/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:17] "HEAD http://52.66.116.26:80/PMA2014/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:18] "HEAD http://52.66.116.26:80/PMA2015/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:18] "HEAD http://52.66.116.26:80/PMA2016/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:18] "HEAD http://52.66.116.26:80/PMA2017/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:18] "HEAD http://52.66.116.26:80/PMA2018/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:19] "HEAD http://52.66.116.26:80/pma2011/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:19] "HEAD http://52.66.116.26:80/pma2012/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:19] "HEAD http://52.66.116.26:80/pma2013/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:19] "HEAD http://52.66.116.26:80/pma2014/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:20] "HEAD http://52.66.116.26:80/pma2015/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:20] "HEAD http://52.66.116.26:80/pma2016/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:20] "HEAD http://52.66.116.26:80/pma2017/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:21] "HEAD http://52.66.116.26:80/pma2018/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:21] "HEAD http://52.66.116.26:80/phpmyadmin2011/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:21] "HEAD http://52.66.116.26:80/phpmyadmin2012/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:21] "HEAD http://52.66.116.26:80/phpmyadmin2013/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:22] "HEAD http://52.66.116.26:80/phpmyadmin2014/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:22] "HEAD http://52.66.116.26:80/phpmyadmin2015/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:22] "HEAD http://52.66.116.26:80/phpmyadmin2016/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:23] "HEAD http://52.66.116.26:80/phpmyadmin2017/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:23] "HEAD http://52.66.116.26:80/phpmyadmin2018/ HTTP/1.1" 404 0
+[27/Jun/2017 09:15:23] "HEAD http://52.66.116.26:80/phpmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 09:50:57] "GET / HTTP/1.1" 302 0
+[27/Jun/2017 09:50:57] "GET /necloudweather HTTP/1.1" 301 0
+[27/Jun/2017 09:50:58] "GET /necloudweather/ HTTP/1.1" 200 22608
+[27/Jun/2017 09:50:58] "GET /static/dist/css/comman.css HTTP/1.1" 200 105499
+[27/Jun/2017 09:50:58] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122540
+[27/Jun/2017 09:50:58] "GET /static/dist/css/skins/skin-blue.min.css HTTP/1.1" 200 3141
+[27/Jun/2017 09:50:58] "GET /static/bootstrap/css/datepicker.css HTTP/1.1" 200 4953
+[27/Jun/2017 09:50:58] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35951
+[27/Jun/2017 09:50:58] "GET /static/bootstrap/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[27/Jun/2017 09:51:01] "GET /static/bootstrap/js/bootstrap-datepicker.js HTTP/1.1" 200 13776
+[27/Jun/2017 09:51:01] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[27/Jun/2017 09:51:01] "GET /static/images/favicon.ico HTTP/1.1" 404 1656
+[27/Jun/2017 09:51:02] "GET /static/images/netenrich_logo.png HTTP/1.1" 200 11526
+[27/Jun/2017 09:51:02] "GET /static/images/favicon.ico HTTP/1.1" 404 1656
+[27/Jun/2017 09:51:02] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[27/Jun/2017 09:51:11] "GET /login HTTP/1.1" 301 0
+[27/Jun/2017 09:51:11] "GET /login/ HTTP/1.1" 200 2575
+[27/Jun/2017 09:51:11] "GET /static/bootstrap/css/registration.css HTTP/1.1" 200 1238
+[27/Jun/2017 09:51:13] "GET /registration HTTP/1.1" 301 0
+[27/Jun/2017 09:51:13] "GET /registration/ HTTP/1.1" 200 2576
+[27/Jun/2017 09:51:18] "POST /necloudweather/output/ HTTP/1.1" 200 2377
+[27/Jun/2017 09:51:48] "POST /necloudweather/output/ HTTP/1.1" 200 2670
+[27/Jun/2017 09:52:08] "GET /necloudweather/ HTTP/1.1" 200 22608
+[27/Jun/2017 09:52:09] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[27/Jun/2017 09:52:13] "GET /login/ HTTP/1.1" 200 2575
+[27/Jun/2017 09:52:22] "GET /registration/ HTTP/1.1" 200 2576
+[27/Jun/2017 09:52:29] "GET /registration/ HTTP/1.1" 200 2576
+[27/Jun/2017 09:52:31] "GET /login/ HTTP/1.1" 200 2575
+[27/Jun/2017 09:52:32] "GET /registration/ HTTP/1.1" 200 2576
+Validating models...
+
+0 errors found
+June 23, 2017 - 09:05:27
+Django version 1.5.11, using settings 'cloudweather.settings'
+Development server is running at http://0.0.0.0:80/
+Quit the server with CONTROL-C.
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+----------------------------------------
+Exception happened during processing of request from ('220.181.159.73', 49248)
+----------------------------------------
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+----------------------------------------
+Exception happened during processing of request from ('45.116.228.172', 34094)
+----------------------------------------
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+------------------
+[]
+[]
+[]
+------------------
+['AWS Batch ']
+['AWS Batch']
+['Mumbai', 'N. California']
+0
+AP
+Mumbai
+AWS Batch (Mumbai)
+---
+1
+NA
+N. California
+AWS Batch (N. California)
+---
+coming here AnonymousUser False
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+------------------
+['AWS Certificate Manager ', 'AWS CloudFormation ']
+['AWS Certificate Manager', 'AWS CloudFormation']
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+0
+EU
+Frankfurt
+AWS Certificate Manager (Frankfurt)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f52f535ce17326d6a33'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f84'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c82'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a6'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5017f535ce080d8ac0e3'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a45f535ce4ce6db6cc5'), u'service': u'AWS Certificate Manager (Frankfurt)'}
+--
+Frankfurt
+AWS CloudFormation (Frankfurt)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a36'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f87'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c85'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a9'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e6'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cc8'), u'service': u'AWS CloudFormation (Frankfurt)'}
+--
+1
+EU
+Ireland
+AWS Certificate Manager (Ireland)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f52f535ce17326d6a34'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f85'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c83'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a7'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e4'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a45f535ce4ce6db6cc6'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+Ireland
+AWS CloudFormation (Ireland)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a37'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f88'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c86'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44aa'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e7'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cc9'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+2
+EU
+London
+AWS Certificate Manager (London)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a35'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f86'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c84'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a8'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e5'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cc7'), u'service': u'AWS Certificate Manager (London)'}
+--
+London
+AWS CloudFormation (London)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a38'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f89'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c87'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44ab'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e8'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cca'), u'service': u'AWS CloudFormation (London)'}
+--
+3
+NA
+Montreal
+AWS Certificate Manager (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f3ff535ce17326d6828'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d7d'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7b'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f701f535ce5279fe4293'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed0'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab2'), u'service': u'AWS Certificate Manager (Montreal)'}
+--
+Montreal
+AWS CloudFormation (Montreal)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d682d'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d82'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a80'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4298'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed5'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab7'), u'service': u'AWS CloudFormation (Montreal)'}
+--
+4
+AP
+Mumbai
+AWS Certificate Manager (Mumbai)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6964'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb4'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb2'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f715f535ce5279fe43d3'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac010'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a34f535ce4ce6db6bf2'), u'service': u'AWS Certificate Manager (Mumbai)'}
+--
+Mumbai
+AWS CloudFormation (Mumbai)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6969'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb9'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb7'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f716f535ce5279fe43d8'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac015'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf7'), u'service': u'AWS CloudFormation (Mumbai)'}
+--
+5
+NA
+N. California
+AWS Certificate Manager (N. California)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f3ff535ce17326d6829'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d7e'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7c'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f701f535ce5279fe4294'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed1'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab3'), u'service': u'AWS Certificate Manager (N. California)'}
+--
+N. California
+AWS CloudFormation (N. California)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d682e'), u'service': u'AWS CloudFormation (N. California)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d83'), u'service': u'AWS CloudFormation (N. California)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a81'), u'service': u'AWS CloudFormation (N. California)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4299'), u'service': u'AWS CloudFormation (N. California)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed6'), u'service': u'AWS CloudFormation (N. California)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab8'), u'service': u'AWS CloudFormation (N. California)'}
+--
+6
+NA
+N. Virginia
+AWS Certificate Manager (N. Virginia)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f3ff535ce17326d682a'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d7f'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7d'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4295'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed2'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab4'), u'service': u'AWS Certificate Manager (N. Virginia)'}
+--
+N. Virginia
+AWS CloudFormation (N. Virginia)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d682f'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d84'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a82'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe429a'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed7'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab9'), u'service': u'AWS CloudFormation (N. Virginia)'}
+--
+7
+NA
+Ohio
+AWS Certificate Manager (Ohio)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f3ff535ce17326d682b'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d80'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7e'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4296'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed3'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab5'), u'service': u'AWS Certificate Manager (Ohio)'}
+--
+Ohio
+AWS CloudFormation (Ohio)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d6830'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d85'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a83'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe429b'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff1f535ce080d8abed8'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a1af535ce4ce6db6aba'), u'service': u'AWS CloudFormation (Ohio)'}
+--
+8
+NA
+Oregon
+AWS Certificate Manager (Oregon)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d682c'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d81'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a7f'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe4297'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff0f535ce080d8abed4'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a19f535ce4ce6db6ab6'), u'service': u'AWS Certificate Manager (Oregon)'}
+--
+Oregon
+AWS CloudFormation (Oregon)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f40f535ce17326d6831'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354062f535ce04c29a1d86'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368407f535ce7775231a84'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f702f535ce5279fe429c'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff1f535ce080d8abed9'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a1af535ce4ce6db6abb'), u'service': u'AWS CloudFormation (Oregon)'}
+--
+9
+SA
+Sao Paulo
+AWS Certificate Manager (Sao Paulo)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f45f535ce17326d68be'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354069f535ce04c29a1e12'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936840df535ce7775231b10'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f70bf535ce5279fe432b'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff7f535ce080d8abf68'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a27f535ce4ce6db6b4a'), u'service': u'AWS Certificate Manager (Sao Paulo)'}
+--
+Sao Paulo
+AWS CloudFormation (Sao Paulo)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f45f535ce17326d68bf'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354069f535ce04c29a1e13'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936840df535ce7775231b11'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f70bf535ce5279fe432c'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a4ff7f535ce080d8abf69'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a28f535ce4ce6db6b4b'), u'service': u'AWS CloudFormation (Sao Paulo)'}
+--
+10
+AP
+Seoul
+AWS Certificate Manager (Seoul)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6965'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb5'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb3'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f715f535ce5279fe43d4'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac011'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf3'), u'service': u'AWS Certificate Manager (Seoul)'}
+--
+Seoul
+AWS CloudFormation (Seoul)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d696a'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eba'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb8'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f716f535ce5279fe43d9'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac016'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf8'), u'service': u'AWS CloudFormation (Seoul)'}
+--
+11
+AP
+Singapore
+AWS Certificate Manager (Singapore)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6966'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb6'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb4'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f715f535ce5279fe43d5'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac012'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf4'), u'service': u'AWS Certificate Manager (Singapore)'}
+--
+Singapore
+AWS CloudFormation (Singapore)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d696b'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1ebb'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb9'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f716f535ce5279fe43da'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac017'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf9'), u'service': u'AWS CloudFormation (Singapore)'}
+--
+12
+AP
+Sydney
+AWS Certificate Manager (Sydney)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6967'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb7'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb5'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f715f535ce5279fe43d6'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac013'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf5'), u'service': u'AWS Certificate Manager (Sydney)'}
+--
+Sydney
+AWS CloudFormation (Sydney)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d696c'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1ebc'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bba'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f716f535ce5279fe43db'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac018'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bfa'), u'service': u'AWS CloudFormation (Sydney)'}
+--
+13
+AP
+Tokyo
+AWS Certificate Manager (Tokyo)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d6968'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1eb8'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231bb6'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f715f535ce5279fe43d7'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac014'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bf6'), u'service': u'AWS Certificate Manager (Tokyo)'}
+--
+Tokyo
+AWS CloudFormation (Tokyo)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f4bf535ce17326d696d'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354070f535ce04c29a1ebd'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('59368413f535ce7775231[27/Jun/2017 10:04:13] "POST /necloudweather/output/ HTTP/1.1" 200 39522
+bbb'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f716f535ce5279fe43dc'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5003f535ce080d8ac019'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a35f535ce4ce6db6bfb'), u'service': u'AWS CloudFormation (Tokyo)'}
+--
+------------------
+['AWS Certificate Manager ', 'AWS CloudFormation ']
+['AWS Certificate Manager', 'AWS CloudFormation']
+['Ireland', 'London']
+0
+EU
+Ireland
+AWS Certificate Manager (Ireland)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f52f535ce17326d6a34'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f85'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c83'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a7'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e4'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a45f535ce4ce6db6cc6'), u'service': u'AWS Certificate Manager (Ireland)'}
+--
+Ireland
+AWS CloudFormation (Ireland)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a37'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f88'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c86'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44aa'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e7'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cc9'), u'service': u'AWS CloudFormation (Ireland)'}
+--
+1
+EU
+London
+AWS Certificate Manager (London)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a35'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f86'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c84'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44a8'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e5'), u'service': u'AWS Certificate Manager (London)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cc7'), u'service': u'AWS Certificate Manager (London)'}
+--
+London
+AWS CloudFormation (London)
+---
+{u'date': u'Jun 01 2017', u'status': u'status0', u'_id': ObjectId('59353f53f535ce17326d6a38'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 05 2017', u'status': u'status0', u'_id': ObjectId('59354078f535ce04c29a1f89'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 06 2017', u'status': u'status0', u'_id': ObjectId('5936841bf535ce7775231c87'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 20 2017', u'status': u'status0', u'_id': ObjectId('5948f723f535ce5279fe44ab'), u'service': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 21 2017', u'status': u'status0', u'_id': ObjectId('594a5018f535ce080d8ac0e8'), u'serv[27/Jun/2017 10:04:29] "POST /necloudweather/output/ HTTP/1.1" 200 7811
+[27/Jun/2017 10:38:43] "HEAD http://52.66.116.26:80/mysql/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:46] "HEAD http://52.66.116.26:80/mysql/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:46] "HEAD http://52.66.116.26:80/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:47] "HEAD http://52.66.116.26:80/phpMyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:47] "HEAD http://52.66.116.26:80/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:50] "HEAD http://52.66.116.26:80/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:51] "HEAD http://52.66.116.26:80/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:51] "HEAD http://52.66.116.26:80/phpmyadmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:51] "HEAD http://52.66.116.26:80/2phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:55] "HEAD http://52.66.116.26:80/phppma/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:55] "HEAD http://52.66.116.26:80/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:55] "HEAD http://52.66.116.26:80/shopdb/ HTTP/1.1" 404 0
+[27/Jun/2017 10:38:58] "HEAD http://52.66.116.26:80/program/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:02] "HEAD http://52.66.116.26:80/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:02] "HEAD http://52.66.116.26:80/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:02] "HEAD http://52.66.116.26:80/db/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:03] "HEAD http://52.66.116.26:80/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:12] "HEAD http://52.66.116.26:80/db/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:12] "HEAD http://52.66.116.26:80/sqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:13] "HEAD http://52.66.116.26:80/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:16] "HEAD http://52.66.116.26:80/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:16] "HEAD http://52.66.116.26:80/mysqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:16] "HEAD http://52.66.116.26:80/mysql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:17] "HEAD http://52.66.116.26:80/admin/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:17] "HEAD http://52.66.116.26:80/admin/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:17] "HEAD http://52.66.116.26:80/admin/sysadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:21] "HEAD http://52.66.116.26:80/admin/db/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:24] "HEAD http://52.66.116.26:80/admin/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:24] "HEAD http://52.66.116.26:80/mysql/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:25] "HEAD http://52.66.116.26:80/mysql/db/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:25] "HEAD http://52.66.116.26:80/mysql/web/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:25] "HEAD http://52.66.116.26:80/mysql/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:25] "HEAD http://52.66.116.26:80/sql/phpmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:32] "HEAD http://52.66.116.26:80/sql/sql/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:32] "HEAD http://52.66.116.26:80/sql/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:35] "HEAD http://52.66.116.26:80/sql/sqlweb/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:36] "HEAD http://52.66.116.26:80/sql/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:48] "HEAD http://52.66.116.26:80/sql/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:48] "HEAD http://52.66.116.26:80/sql/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:49] "HEAD http://52.66.116.26:80/db/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:55] "HEAD http://52.66.116.26:80/db/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:55] "HEAD http://52.66.116.26:80/db/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:59] "HEAD http://52.66.116.26:80/db/db-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:59] "HEAD http://52.66.116.26:80/db/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 10:39:59] "HEAD http://52.66.116.26:80/db/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:02] "GET /login/ HTTP/1.1" 200 2575
+[27/Jun/2017 10:40:02] "GET /static/bootstrap/css/registration.css HTTP/1.1" 200 1238
+[27/Jun/2017 10:40:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 122540
+[27/Jun/2017 10:40:02] "GET /static/bootstrap/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+[27/Jun/2017 10:40:03] "HEAD http://52.66.116.26:80/administrator/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:03] "GET /static/images/netenrich_logo.png HTTP/1.1" 200 11526
+[27/Jun/2017 10:40:09] "HEAD http://52.66.116.26:80/administrator/web/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:09] "HEAD http://52.66.116.26:80/administrator/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:09] "HEAD http://52.66.116.26:80/administrator/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:10] "HEAD http://52.66.116.26:80/administrator/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:13] "HEAD http://52.66.116.26:80/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:13] "HEAD http://52.66.116.26:80/phpMyAdmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:17] "HEAD http://52.66.116.26:80/php-my-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:17] "HEAD http://52.66.116.26:80/PMA2011/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:20] "HEAD http://52.66.116.26:80/PMA2013/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:21] "HEAD http://52.66.116.26:80/PMA2014/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:24] "HEAD http://52.66.116.26:80/PMA2016/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:24] "HEAD http://52.66.116.26:80/PMA2017/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:30] "HEAD http://52.66.116.26:80/pma2012/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:34] "HEAD http://52.66.116.26:80/pma2014/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:40] "HEAD http://52.66.116.26:80/pma2017/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:40] "HEAD http://52.66.116.26:80/pma2018/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:47] "HEAD http://52.66.116.26:80/phpmyadmin2013/ HTTP/1.1" 404 0
+[27/Jun/2017 10:40:59] "HEAD http://52.66.116.26:80/phpmyadmin2018/ HTTP/1.1" 404 0
+[27/Jun/2017 10:41:15] "POST /login/ HTTP/1.1" 200 2745
+[27/Jun/2017 10:41:21] "POST /login/ HTTP/1.1" 200 2746
+[27/Jun/2017 10:41:25] "POST /login/ HTTP/1.1" 200 2746
+[27/Jun/2017 10:41:27] "GET /registration/ HTTP/1.1" 200 2576
+[27/Jun/2017 10:41:41] "POST /registration/ HTTP/1.1" 200 2728
+/usr/lib/python2.7/site-packages/django_mongodb_engine/utils.py:58: DeprecationWarning: save is deprecated. Use insert_one or replace_one instead
+  retval = func(*args, **kwargs)
+
+/usr/lib/python2.7/site-packages/django_mongodb_engine/utils.py:58: DeprecationWarning: remove is deprecated. Use delete_one or delete_many instead.
+  retval = func(*args, **kwargs)
+
+/usr/lib/python2.7/site-packages/django/db/models/fields/__init__.py:810: RuntimeWarning: DateTimeField received a naive datetime (2017-06-27 10:41:48.256000) while time zone support is active.
+  RuntimeWarning)
+
+[27/Jun/2017 10:41:48] "POST /registration/ HTTP/1.1" 302 0
+[27/Jun/2017 10:41:48] "GET /login HTTP/1.1" 301 0
+[27/Jun/2017 10:41:48] "GET /login/ HTTP/1.1" 302 0
+[27/Jun/2017 10:41:48] "GET /necloudweather HTTP/1.1" 301 0
+[27/Jun/2017 10:41:48] "GET /necloudweather/ HTTP/1.1" 200 22547
+[27/Jun/2017 10:41:48] "GET /static/bootstrap/css/datepicker.css HTTP/1.1" 200 4953
+[27/Jun/2017 10:41:48] "GET /static/dist/css/skins/skin-blue.min.css HTTP/1.1" 200 3141
+[27/Jun/2017 10:41:48] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35951
+[27/Jun/2017 10:41:48] "GET /static/bootstrap/js/bootstrap-datepicker.js HTTP/1.1" 200 13776
+[27/Jun/2017 10:41:48] "GET /static/dist/css/comman.css HTTP/1.1" 200 105499
+[27/Jun/2017 10:41:49] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[27/Jun/2017 10:41:49] "GET /necloudweather/dist/js/app.min.js HTTP/1.1" 404 2782
+[27/Jun/2017 10:41:51] "GET /static/images/favicon.ico HTTP/1.1" 404 1656
+[27/Jun/2017 10:42:12] "GET /logout/ HTTP/1.1" 302 0
+[27/Jun/2017 10:42:12] "GET /login/ HTTP/1.1" 200 2575
+[27/Jun/2017 11:21:26] "HEAD http://52.66.116.26:80/mysql/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:27] "HEAD http://52.66.116.26:80/mysql/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:28] "HEAD http://52.66.116.26:80/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:29] "HEAD http://52.66.116.26:80/phpMyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:30] "HEAD http://52.66.116.26:80/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:30] "HEAD http://52.66.116.26:80/phpmyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:34] "HEAD http://52.66.116.26:80/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:34] "HEAD http://52.66.116.26:80/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:35] "HEAD http://52.66.116.26:80/phpmyadmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:37] "HEAD http://52.66.116.26:80/2phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:37] "HEAD http://52.66.116.26:80/phpmy/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:38] "HEAD http://52.66.116.26:80/phppma/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:39] "HEAD http://52.66.116.26:80/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:39] "HEAD http://52.66.116.26:80/shopdb/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:41] "HEAD http://52.66.116.26:80/MyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:45] "HEAD http://52.66.116.26:80/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:45] "HEAD http://52.66.116.26:80/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:46] "HEAD http://52.66.116.26:80/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:47] "HEAD http://52.66.116.26:80/db/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:52] "HEAD http://52.66.116.26:80/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:53] "HEAD http://52.66.116.26:80/mysql/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:55] "HEAD http://52.66.116.26:80/database/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:56] "HEAD http://52.66.116.26:80/db/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:57] "HEAD http://52.66.116.26:80/db/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:59] "HEAD http://52.66.116.26:80/sqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 11:21:59] "HEAD http://52.66.116.26:80/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:00] "HEAD http://52.66.116.26:80/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:02] "HEAD http://52.66.116.26:80/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:03] "HEAD http://52.66.116.26:80/mysqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:04] "HEAD http://52.66.116.26:80/mysql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:06] "HEAD http://52.66.116.26:80/admin/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:07] "HEAD http://52.66.116.26:80/admin/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:07] "HEAD http://52.66.116.26:80/admin/sysadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:08] "HEAD http://52.66.116.26:80/admin/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:09] "HEAD http://52.66.116.26:80/admin/db/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:09] "HEAD http://52.66.116.26:80/admin/web/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:10] "HEAD http://52.66.116.26:80/admin/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:12] "HEAD http://52.66.116.26:80/mysql/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:14] "HEAD http://52.66.116.26:80/mysql/db/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:14] "HEAD http://52.66.116.26:80/mysql/web/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:15] "HEAD http://52.66.116.26:80/mysql/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:16] "HEAD http://52.66.116.26:80/sql/phpmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:16] "HEAD http://52.66.116.26:80/sql/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:18] "HEAD http://52.66.116.26:80/sql/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:35] "HEAD http://52.66.116.26:80/sql/sql/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:36] "HEAD http://52.66.116.26:80/sql/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:39] "HEAD http://52.66.116.26:80/sql/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:56] "HEAD http://52.66.116.26:80/sql/sqlweb/ HTTP/1.1" 404 0
+[27/Jun/2017 11:22:57] "HEAD http://52.66.116.26:80/sql/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:00] "HEAD http://52.66.116.26:80/sql/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:01] "HEAD http://52.66.116.26:80/sql/sql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:02] "HEAD http://52.66.116.26:80/sql/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:03] "HEAD http://52.66.116.26:80/sql/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:03] "HEAD http://52.66.116.26:80/sql/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:04] "HEAD http://52.66.116.26:80/db/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:05] "HEAD http://52.66.116.26:80/db/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:05] "HEAD http://52.66.116.26:80/db/dbweb/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:06] "HEAD http://52.66.116.26:80/db/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:07] "HEAD http://52.66.116.26:80/db/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:08] "HEAD http://52.66.116.26:80/db/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:11] "HEAD http://52.66.116.26:80/db/db-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:13] "HEAD http://52.66.116.26:80/db/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:14] "HEAD http://52.66.116.26:80/db/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:14] "HEAD http://52.66.116.26:80/db/phpMyAdmin-3/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:19] "HEAD http://52.66.116.26:80/administrator/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:20] "HEAD http://52.66.116.26:80/administrator/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:22] "HEAD http://52.66.116.26:80/administrator/db/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:26] "HEAD http://52.66.116.26:80/administrator/web/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:27] "HEAD http://52.66.116.26:80/administrator/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:29] "HEAD http://52.66.116.26:80/administrator/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:29] "HEAD http://52.66.116.26:80/administrator/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:31] "HEAD http://52.66.116.26:80/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:35] "HEAD http://52.66.116.26:80/phpMyAdmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:38] "HEAD http://52.66.116.26:80/php-my-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:39] "HEAD http://52.66.116.26:80/PMA2011/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:44] "HEAD http://52.66.116.26:80/PMA2012/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:45] "HEAD http://52.66.116.26:80/PMA2013/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:47] "HEAD http://52.66.116.26:80/PMA2014/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:48] "HEAD http://52.66.116.26:80/PMA2015/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:52] "HEAD http://52.66.116.26:80/PMA2017/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:52] "HEAD http://52.66.116.26:80/PMA2018/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:53] "HEAD http://52.66.116.26:80/pma2011/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:54] "HEAD http://52.66.116.26:80/pma2012/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:54] "HEAD http://52.66.116.26:80/pma2013/ HTTP/1.1" 404 0
+[27/Jun/2017 11:23:59] "HEAD http://52.66.116.26:80/pma2015/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:00] "HEAD http://52.66.116.26:80/pma2016/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:00] "HEAD http://52.66.116.26:80/pma2017/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:02] "HEAD http://52.66.116.26:80/pma2018/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:09] "HEAD http://52.66.116.26:80/phpmyadmin2013/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:13] "HEAD http://52.66.116.26:80/phpmyadmin2014/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:16] "HEAD http://52.66.116.26:80/phpmyadmin2016/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:17] "HEAD http://52.66.116.26:80/phpmyadmin2017/ HTTP/1.1" 404 0
+[27/Jun/2017 11:24:18] "HEAD http://52.66.116.26:80/phpmyadmin2018/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:50] "HEAD http://52.66.116.26:80/mysql/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:50] "HEAD http://52.66.116.26:80/mysql/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:51] "HEAD http://52.66.116.26:80/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:51] "HEAD http://52.66.116.26:80/phpMyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:52] "HEAD http://52.66.116.26:80/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:52] "HEAD http://52.66.116.26:80/phpmyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:53] "HEAD http://52.66.116.26:80/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:54] "HEAD http://52.66.116.26:80/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:54] "HEAD http://52.66.116.26:80/phpmyadmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:55] "HEAD http://52.66.116.26:80/2phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:55] "HEAD http://52.66.116.26:80/phpmy/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:56] "HEAD http://52.66.116.26:80/phppma/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:56] "HEAD http://52.66.116.26:80/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:57] "HEAD http://52.66.116.26:80/shopdb/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:58] "HEAD http://52.66.116.26:80/MyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:58] "HEAD http://52.66.116.26:80/program/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:59] "HEAD http://52.66.116.26:80/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 12:38:59] "HEAD http://52.66.116.26:80/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:00] "HEAD http://52.66.116.26:80/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:00] "HEAD http://52.66.116.26:80/db/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:01] "HEAD http://52.66.116.26:80/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:02] "HEAD http://52.66.116.26:80/mysql/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:02] "HEAD http://52.66.116.26:80/database/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:03] "HEAD http://52.66.116.26:80/db/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:03] "HEAD http://52.66.116.26:80/db/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:04] "HEAD http://52.66.116.26:80/sqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:05] "HEAD http://52.66.116.26:80/mysqlmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:05] "HEAD http://52.66.116.26:80/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:06] "HEAD http://52.66.116.26:80/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:06] "HEAD http://52.66.116.26:80/mysqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:07] "HEAD http://52.66.116.26:80/mysql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:08] "HEAD http://52.66.116.26:80/admin/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:08] "HEAD http://52.66.116.26:80/admin/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:09] "HEAD http://52.66.116.26:80/admin/sysadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:09] "HEAD http://52.66.116.26:80/admin/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:10] "HEAD http://52.66.116.26:80/admin/db/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:10] "HEAD http://52.66.116.26:80/admin/web/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:11] "HEAD http://52.66.116.26:80/admin/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:11] "HEAD http://52.66.116.26:80/mysql/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:12] "HEAD http://52.66.116.26:80/mysql/db/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:13] "HEAD http://52.66.116.26:80/mysql/web/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:13] "HEAD http://52.66.116.26:80/mysql/pMA/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:14] "HEAD http://52.66.116.26:80/sql/phpmanager/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:14] "HEAD http://52.66.116.26:80/sql/php-myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:15] "HEAD http://52.66.116.26:80/sql/phpmy-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:15] "HEAD http://52.66.116.26:80/sql/sql/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:16] "HEAD http://52.66.116.26:80/sql/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:17] "HEAD http://52.66.116.26:80/sql/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:17] "HEAD http://52.66.116.26:80/sql/sqlweb/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:18] "HEAD http://52.66.116.26:80/sql/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:18] "HEAD http://52.66.116.26:80/sql/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:19] "HEAD http://52.66.116.26:80/sql/sqladmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:19] "HEAD http://52.66.116.26:80/sql/sql-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:20] "HEAD http://52.66.116.26:80/sql/phpmyadmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:21] "HEAD http://52.66.116.26:80/sql/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:21] "HEAD http://52.66.116.26:80/sql/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:22] "HEAD http://52.66.116.26:80/db/myadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:22] "HEAD http://52.66.116.26:80/db/webadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:23] "HEAD http://52.66.116.26:80/db/dbweb/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:24] "HEAD http://52.66.116.26:80/db/websql/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:24] "HEAD http://52.66.116.26:80/db/webdb/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:25] "HEAD http://52.66.116.26:80/db/dbadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:25] "HEAD http://52.66.116.26:80/db/db-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:26] "HEAD http://52.66.116.26:80/db/phpmyadmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:26] "HEAD http://52.66.116.26:80/db/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:27] "HEAD http://52.66.116.26:80/db/phpMyAdmin-3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:28] "HEAD http://52.66.116.26:80/administrator/phpmyadmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:28] "HEAD http://52.66.116.26:80/administrator/phpMyAdmin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:29] "HEAD http://52.66.116.26:80/administrator/db/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:29] "HEAD http://52.66.116.26:80/administrator/web/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:30] "HEAD http://52.66.116.26:80/administrator/pma/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:30] "HEAD http://52.66.116.26:80/administrator/PMA/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:31] "HEAD http://52.66.116.26:80/administrator/admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:32] "HEAD http://52.66.116.26:80/phpMyAdmin2/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:32] "HEAD http://52.66.116.26:80/phpMyAdmin3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:33] "HEAD http://52.66.116.26:80/phpMyAdmin4/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:33] "HEAD http://52.66.116.26:80/phpMyAdmin-3/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:34] "HEAD http://52.66.116.26:80/php-my-admin/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:34] "HEAD http://52.66.116.26:80/PMA2011/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:35] "HEAD http://52.66.116.26:80/PMA2012/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:36] "HEAD http://52.66.116.26:80/PMA2013/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:36] "HEAD http://52.66.116.26:80/PMA2014/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:37] "HEAD http://52.66.116.26:80/PMA2015/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:37] "HEAD http://52.66.116.26:80/PMA2016/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:38] "HEAD http://52.66.116.26:80/PMA2017/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:38] "HEAD http://52.66.116.26:80/PMA2018/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:39] "HEAD http://52.66.116.26:80/pma2011/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:40] "HEAD http://52.66.116.26:80/pma2012/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:40] "HEAD http://52.66.116.26:80/pma2013/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:41] "HEAD http://52.66.116.26:80/pma2014/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:41] "HEAD http://52.66.116.26:80/pma2015/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:42] "HEAD http://52.66.116.26:80/pma2016/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:43] "HEAD http://52.66.116.26:80/pma2017/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:43] "HEAD http://52.66.116.26:80/pma2018/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:44] "HEAD http://52.66.116.26:80/phpmyadmin2011/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:44] "HEAD http://52.66.116.26:80/phpmyadmin2012/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:45] "HEAD http://52.66.116.26:80/phpmyadmin2013/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:45] "HEAD http://52.66.116.26:80/phpmyadmin2014/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:46] "HEAD http://52.66.116.26:80/phpmyadmin2015/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:46] "HEAD http://52.66.116.26:80/phpmyadmin2016/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:47] "HEAD http://52.66.116.26:80/phpmyadmin2017/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:48] "HEAD http://52.66.116.26:80/phpmyadmin2018/ HTTP/1.1" 404 0
+[27/Jun/2017 12:39:48] "HEAD http://52.66.116.26:80/phpmanager/ HTTP/1.1" 404 0
+ice': u'AWS CloudFormation (London)'}
+--
+{u'date': u'Jun 22 2017', u'status': u'status0', u'_id': ObjectId('594b9a46f535ce4ce6db6cca'), u'service': u'AWS CloudFormation (London)'}
+--
+coming here satya123 True
+['Frankfurt', 'Ireland', 'London', 'Montreal', 'Mumbai', 'N. California', 'N. Virginia', 'Ohio', 'Oregon', 'Sao Paulo', 'Seoul', 'Singapore', 'Sydney', 'Tokyo']
+oops
+System check identified some issues:
+
+WARNINGS:
+?: (1_7.W001) MIDDLEWARE_CLASSES is not set.
+	HINT: Django 1.7 changed the global defaults for the MIDDLEWARE_CLASSES. django.contrib.sessions.middleware.SessionMiddleware, django.contrib.auth.middleware.AuthenticationMiddleware, and django.contrib.messages.middleware.MessageMiddleware were removed from the defaults. If your project needs these middleware then you should configure this setting.
+
+System check identified 1 issue (0 silenced).
+Unhandled exception in thread started by <function wrapper at 0x1c4a848>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/django/utils/autoreload.py", line 222, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 107, in inner_run
+    self.check_migrations()
+  File "/usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py", line 159, in check_migrations
+    executor = MigrationExecutor(connections[DEFAULT_DB_ALIAS])
+  File "/usr/lib/python2.7/site-packages/django/db/migrations/executor.py", line 17, in __init__
+    self.loader = MigrationLoader(self.connection)
+  File "/usr/lib/python2.7/site-packages/django/db/migrations/loader.py", line 48, in __init__
+    self.build_graph()
+  File "/usr/lib/python2.7/site-packages/django/db/migrations/loader.py", line 179, in build_graph
+    self.applied_migrations = recorder.applied_migrations()
+  File "/usr/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 59, in applied_migrations
+    self.ensure_schema()
+  File "/usr/lib/python2.7/site-packages/django/db/migrations/recorder.py", line 49, in ensure_schema
+    if self.Migration._meta.db_table in self.connection.introspection.get_table_list(self.connection.cursor()):
+  File "/usr/lib/python2.7/site-packages/django/db/backends/__init__.py", line 1383, in get_table_list
+    raise NotImplementedError('subclasses of BaseDatabaseIntrospection may require a get_table_list() method')
+NotImplementedError: subclasses of BaseDatabaseIntrospection may require a get_table_list() method

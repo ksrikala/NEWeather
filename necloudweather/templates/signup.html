@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register | NetEnrich</title>
+  <link rel="stylesheet" type="text/css" href="{%static "bootstrap/css/bootstrap.min.css" %}" />
+  <link rel="stylesheet" type="text/css" href="{%static "bootstrap/css/registration.css" %}" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+<body  style="background:#222D32">
+    <div class="container">
+      <div class="row main">
+        <div class="main-login main-center1">
+<div align="center"> <img align="center" src="{%static "images/netenrich_logo.png" %}" width="130px" /> </div><br><br>
+          <form class="form-horizontal"  method="post">
+            {% csrf_token %}
+            {% for field in form %}
+              <p>
+                {{ field.label_tag }}<br>
+                {{ field }}
+                {% if field.help_text %}
+                  <small style="color: grey">{{ field.help_text }}</small>
+                {% endif %}
+                {% for error in field.errors %}
+                  <p style="color: red">{{ error }}</p>
+                {% endfor %}
+              </p>
+            {% endfor %}
+    <button type="submit" class="btn btn-info form-control">Sign up</button>
+          </form><br>
+                  <div align="center">
+                    <a href="/"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a>
+                     |
+                    <a href="/login"><span class="glyphicon glyphicon-log-in"></span>&nbsp; Login </a>
+                 </div>
+        </div>
+	</div>
+      </div>
+    </div>
+<script src="{%static "bootstrap/js/jquery-3.2.1.min.js" %}"></script>
+<script type="text/javascript">
+$('.form-horizontal input').addClass('form-control');
+</script>
+</body>
+</html>
+

@@ -1,0 +1,434 @@
+{% load static %}
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href ="{%static "images/favicon.ico" %}"/>  
+    <title> NEWeather | Results</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="{%static "bootstrap/css/bootstrap.min.css" %}">
+     <script src="{%static "bootstrap/js/bootstrap.min.js" %}"></script>  
+    <link rel="stylesheet" href="{%static "dist/css/comman.css" %}">
+    <link rel="stylesheet" href="{%static "dist/css/skins/skin-blue.min.css" %}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.3/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.3/js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <script >
+    var multiselectEnable = {
+	        maxHeight: 150,
+	        numberDisplayed: 1,
+	        enableFiltering: true,
+	        enableCaseInsensitiveFiltering: true,
+	        includeFilterClearBtn: false,
+	    };
+      $(function(){
+          $('.datepicker').datepicker({
+              format: 'mm/dd/yyyy',
+              endDate: '+0d',
+              autoclose: true
+          });
+          $('.selectpicker').selectpicker({
+              size: 5
+            });
+          $(document).on('click', '[name="environment"]' , function(){
+              var val = $('[name="environment"]:checked').val();
+              var ex={env:val}
+              $.ajax({
+                  url: "/post1/",
+                  type: "POST", // or "get"
+                  headers: {'X-CSRFToken': '{{ csrf_token }}'},
+                  data: ex,
+                  dataType: 'json',
+                  beforeSend: function() {
+                      $('span#loading').show();
+                  },
+                  complete: function() {
+                      $('span#loading').hide();
+                  },
+                  success: function(data) {
+                    $('#hello').selectpicker('destroy');
+                    $('#services').selectpicker('destroy');
+                    var j_data = JSON.parse(data);
+                    var datalist = new Array();
+                    var datalist1 = new Array();
+                    $.each(j_data['reg'], function(index, val) {
+                      datalist.push("<option value = '" + val + "'>" + val + "</option>");
+                    });
+                    $.each(j_data['ser'], function(index, val1) {
+                      datalist1.push("<option value = '" + val1 + "'>" + val1 + "</option>");
+                    });
+                    $('#hello').html(datalist);
+                    $('#services').html(datalist1);
+                    $('#hello').selectpicker(multiselectEnable);
+                    $('#services').selectpicker(multiselectEnable);
+                  }});
+            }); 
+});
+    $(document).ready(function() {
+  $('#templatename').keyup(function() {
+    var value = $(this).val();
+    var ex={env:value}
+    $.ajax({
+      type: 'POST',
+      url : '/tempcheck/',
+      headers: {'X-CSRFToken': '{{ csrf_token }}'},
+      data: ex,
+      dataType: 'json',
+      beforeSend: function() {
+          $('span#temploading').show();
+      },
+      complete: function() {
+          $('span#temploading').hide();
+      },
+      success:function(data)
+      {
+        if(data== 'ok')
+        {
+          $('#terror').show()
+        }
+        else
+        {
+          $('#terror').hide()
+        }
+      }
+
+    });
+});
+  $('#form1').validate({
+      errorClass: "my-error-class",
+      validClass: "my-valid-class",
+    rules: {
+         services : { required: true},
+         regions : { required : true}, 
+         fromdate : { required: true },
+         todate: { required: true },
+         templatename : { required: true },
+    },
+    messages: {
+         regions: "Select Regions",
+         services: "Select Services", 
+         fromdate: "Select From-Date",
+         todate: "Select To-Date",
+    },
+
+  });
+
+    $("#save").click(function(){
+     $("#temp").show();
+     $('#saveorrun').val(1);
+});  
+
+    $("#run1").click(function(){
+    $("#validation").submit();
+
+});  
+
+}); 
+      </script>
+  </head>
+
+  <body  class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="/necloudweather/" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini">
+          <img src="{%static "images/netenrich_logo.png" %}" />
+          </span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"> <img src="{%static "images/netenrich_logo.png" %}" width="115px"/></span>
+        </a>
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+              <form class="navbar-form navbar-left">
+            <ul class="nav navbar-nav">
+        
+                              <div class="dropdown pull-left">
+                            <div class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               <font size="3px"  color="white" >Cloud-Optimization</font> 
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/cpu-utlization/" ></span>CPU Utilization</a></li>
+                                <li><a href="/rimismatch/">RI Mismatch</a></li>
+                            </ul>
+                        </div>
+                        </ul>
+</form>
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+
+          <form class="navbar-form navbar-left">
+            <ul class="nav navbar-nav">
+
+              <!-- Messages: style can be found in dropdown.less-->
+
+             {% if user != "no_user"%}
+                        <div class="dropdown pull-right">
+                            <div class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               <font size="3px" class="glyphicon glyphicon-user " color="white" >{{user}}</font> 
+                                <span style="color:white" class="caret"></span>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/profile/" name="net" id="net"  data="profile"><span class="glyphicon glyphicon-tasks"></span>Saved Items </a></li>
+                                <li><a href="/logout/"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                            </ul>
+                        </div>
+             
+            {% else %}
+                        <div class="dropdown pull-right">
+                            <div class="btn dropdown-toggle" class="glyphicon glyphicon-log-in" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <font size="3px" color="white" class="glyphicon glyphicon-log-in" > SignIn</font>
+                                <span style="color:white" class="caret"></span>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/registration"><span class="glyphicon glyphicon-registration-mark"></span>Register</a></li>
+                                <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+                            </ul>
+                        </div>
+
+            {% endif %}
+            </ul>
+          </div>
+          </form>
+          
+        </nav>
+      </header>
+
+    <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <form name="form1" class="sidebar" id="form1" action="/results/" method="POST">
+            {% csrf_token %}
+            <div style="color:white; padding:29px 20px;">
+
+
+                    <div class="form-group"  >
+                     <label class="lable_heading">Select Cloud Environment</label>
+
+                      <div class="radio" name= "environment">
+                        <label>                                                                                                                                                                                                                                                                                                                               
+                          <input value="AWS" name= "environment" checked=""  type="radio">
+                          Amazon Web Services
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input value="Azure"  name = "environment" type="radio">
+                          Microsoft Azure
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input value="Google"  name = "environment" type="radio">
+                          Google Cloud
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group" >
+                      <label class="lable_heading">Regions
+                    <span id = "loading" style="display:none">
+						<img border="0" align="absmiddle" width="15px" src="{% static "images/loading.gif" %} ">
+					</span></label>
+                        <div class="controls">
+                        <select id="hello" name ="regions" class="selectpicker show-menu-arrow" multiple  data-live-search="true" multiple data-selected-text-format="count > 3" data-width="100%" data-dropup-auto="false" data-size="5" multiple data-actions-box="true" title="Select Region">
+                          {% for region in regions %}
+                            <option value="{{ region }}">{{ region }}</option>
+                          {% endfor %}
+
+                          </select>
+                          </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="lable_heading">Services                  
+                       <span id = "loading" style="display:none">
+						<img border="0" align="absmiddle" width="15px" src="{% static "images/loading.gif" %}">
+					</span>
+</label>
+                        <select  name="services" id="services"  class="selectpicker show-menu-arrow" multiple data-live-search="true" multiple data-selected-text-format="count > 3 " data-width="100%" data-dropup-auto="false" data-size="5" multiple data-actions-box="true" title="Select Services" >
+                          {% for service in services %}
+                            <option value="{{ service }}">{{ service }}</option>
+                          {% endfor %}
+
+                        </select>
+                    </div>
+        <div class="form-group">
+                    <label class="lable_heading">Date and time range</label>
+                     <!-- Date and time range -->
+                  <div>
+                        From:
+			<br>
+                            <input class="datepicker" style="color:black;" name="fromdate">
+		<br>	TO:
+			<br>
+			<input class="datepicker" style="color:black;" name="todate">
+                      <br>
+                   </div>
+            </div>
+            <div  id="temp" style="display:none;" >
+                      <label class="lable_heading">Template Name                           <span id = "temploading" style="display:none">
+						<img border="0" align="absmiddle" width="15px" src="{% static "images/loading.gif" %}">
+					</span> </label>
+                            <input type="text" class="form-control pull-right" style="color:black;" id="templatename" name="templatename">
+ 
+                      <label  id="terror" style="display:none;">already exist!</label> <br>
+              </div>
+          <input type="hidden" name="saveorrun" value="0" id="saveorrun">
+            <button type="submit" id="save" class="btn btn-info btn-sm"><i class="fa fa-floppy-o" aria-hidden="true"></i> &nbsp;   Save</button>
+            <!--<button class="btn btn-info btn-sm" type="submit" ><b>Save</b></button>-->
+            <button type="submit" class="btn btn-primary btn-sm pull-right" name="run1" ><i class="fa fa-play" aria-hidden="true"></i> &nbsp; Run</button>
+            </div>
+
+
+
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper" >
+        <!-- Content Header (Page header) -->
+        <!-- Main content -->
+        <section class="content ">
+        <div>
+        {% for service,vals in results.items %}
+        <div class="box">
+                <div class="box-header">
+                  <h3 class="box-title">{{service}}</h3>
+                </div><!-- /.box-header -->
+                <div class="box-body no-padding">
+                  <table class="table table-striped">
+                    <tbody>
+                    <tr>
+                      
+                      <th >Regions</th>
+                     {% for date in dates %}
+                     <th>{{date}}</th>
+                      {% endfor %}
+                    </tr>
+                    {% for reg,status in vals.items %}
+                    <tr>
+                      <td> {{reg}}</td> 
+                      {% for dat in status %}
+                        {% if dat %}
+                          {% if dat.status == "status0" or dat.status == 'Good' %}
+                            <td align="left" > <span class="logo-lg"> <img data-toggle="modal" style="cursor:pointer" data-target="#myModal1" src="{%static "images/ok.png" %}" width="12px"/></span></td>
+                                    <div class="modal fade" id="myModal1" role="dialog">
+                                      <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Information</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>Service is in Good Condition</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            {% elif dat.status == "Blank" %}
+                            <td align="left" > <span class="logo-lg"> <img data-toggle="modal" style="cursor:pointer" data-target="#myModal2" src="{%static "images/not.png" %}" width="12px"/></span></td>
+                                    <div class="modal fade" id="myModal2" role="dialog">
+                                      <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Information</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>Service is Not Available in this Region</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                          {% else %}
+                            <td align="left" > <span class="logo-lg"> <img data-toggle="modal" style="cursor:pointer"  data-target="#myModal3" src="{%static "images/information.png" %}" width="14px"/></span></td>  
+                                    <div class="modal fade" id="myModal3" role="dialog">
+                                      <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Information</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>{{ dat.status }}</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                          {% endif %}
+                        {% else %}
+                          <td align="left" > <span class="logo-lg"> <img data-toggle="modal" style="cursor:pointer" data-target="#myModal4" src="{%static "images/not.png" %}" width="12px"/></span></td>
+                                                              <div class="modal fade" id="myModal4" role="dialog">
+                                      <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                          <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Information</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                            <p>Service is Not Available in this Region</p>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                        {% endif %}
+                      {% endfor %}
+                    </tr>
+                    {% endfor %} 
+                  </tbody></table>
+                </div><!-- /.box-body -->
+              </div>              
+        {% endfor %}  
+        </div>    
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->
+  </body>
+<script type="text/javascript">
+function save_this(){
+    $('#saveorrun').val(1);
+}
+$('#net').click(function(e){
+   e.preventDefault();
+   var urrl = $(this).attr('data');
+ 
+   $.get('http://ec2-52-66-116-26.ap-south-1.compute.amazonaws.com/'+urrl, function(html){
+
+       $('.content').html(html);
+   });
+});
+</script>
+</html>
+
+

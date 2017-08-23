@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login | NetEnrich</title>
+  <link rel="stylesheet" type="text/css" href="{%static "bootstrap/css/bootstrap.min.css" %}" />
+  <link rel="stylesheet" type="text/css" href="{%static "bootstrap/css/registration.css" %}" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+<body  style="background:#222D32">
+    <div class="container">
+      <div class="row main">
+        <div class="main-login main-center">
+          <div class="m in">
+      <div align="center"> <img align="center" src="{%static "images/netenrich_logo.png" %}" width="130px" /> </div><br><br>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <a href="#" class="btn btn-lg btn-primary btn-block">Facebook</a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <a href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}" class="btn btn-lg btn-info btn-block">Google</a>
+        </div>
+      </div>
+        <div align="center">
+        <label class="span-or" style="font-family:Poor Richard; color:black;"  >OR</label>
+        </div>
+      <form role="form" action="/login/" method="POST">{% csrf_token %}
+      <table style="">
+      {{form.as_table}}
+       <tr><td>
+            </td><td >
+</td>
+</tr>
+</table>
+       <div  align="center"  >
+       <button type="submit" class="btn btn btn-primary">
+          Log In
+       </button>
+  </div>
+         </form>
+         <br>
+      <div >
+          Don't have an account!
+                <a href="/registration/">
+                Sign Up Here
+               </a>
+               |
+               <a href="/"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a>
+      </div>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+<script src="{%static "bootstrap/js/jquery-3.2.1.min.js" %}"></script>
+<script type="text/javascript">
+   $('#id_username').addClass('form-control');
+   $('#id_password').addClass('form-control');
+   $('td').css('padding','2px');
+</script>
+</body>
+</html>
+
+

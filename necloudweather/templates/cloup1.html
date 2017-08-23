@@ -1,0 +1,421 @@
+{% load static %}
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href ="{%static "images/favicon.ico" %}"/>
+    <title> NetEnrich Cloud Weather </title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="{%static "bootstrap/css/bootstrap.min.css" %}">
+     <script src="{%static "bootstrap/js/bootstrap.min.js" %}"></script>  
+    <link rel="stylesheet" href="{%static "dist/css/comman.css" %}">
+    <link rel="stylesheet" href="{%static "dist/css/skins/skin-blue.min.css" %}">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.3/css/bootstrap-select.min.css" rel="stylesheet" type="text/css" />
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTg8VaIsfJoG5MWxw4ov4j6jpKGblcmog&callback=initMap"  type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.3/js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+    <style>
+      .my-error-class {
+          color:red;
+      }
+      .my-valid-class {
+          color:green;
+      }
+    </style>
+    <script >
+      $(function(){
+          $('.datepicker').datepicker({
+              format: 'mm/dd/yyyy',
+              endDate: '+0d',
+              autoclose: true,
+ 	      startDate: "07/26/2017"
+          });
+      });
+            </script> 
+          <script type="text/javascript">
+            $(document).ready(function() {
+              $('.selectpicker').selectpicker({
+                size: 5
+              });
+            });   
+            </script>  
+    <script type="text/javascript">
+        function regions(region){
+                alert(region);
+                var ex={env:region}
+                $.ajax({
+                    url: "regions_data/",
+                    type: "POST", // or "get"
+                    headers: {'X-CSRFToken': '{{ csrf_token }}'},
+                    data: ex,
+                    dataType: 'json'
+                  });
+        }
+        </script>
+    <script type="text/javascript">  
+        var multiselectEnable = {
+        maxHeight: 150,
+        numberDisplayed: 1,
+        enableFiltering: true,
+        enableCaseInsensitiveFiltering: true,
+        includeFilterClearBtn: false,
+    };
+    $(function() {
+      $(document).on('click', '[name="environment"]' , function(){
+        var val = $('[name="environment"]:checked').val();
+        var ex={env:val}
+        $.ajax({
+            url: "/post1/",
+            type: "POST", // or "get"
+            headers: {'X-CSRFToken': '{{ csrf_token }}'},
+            data: ex,
+            dataType: 'json',
+            success: function(data) {
+              $('#hello').selectpicker('destroy');
+              $('#services').selectpicker('destroy');
+              var j_data = JSON.parse(data);
+              var datalist = new Array();
+              var datalist1 = new Array();
+              $.each(j_data['reg'], function(index, val) {
+                datalist.push("<option value = '" + val + "'>" + val + "</option>");
+              });
+              $.each(j_data['ser'], function(index, val1) {
+                datalist1.push("<option value = '" + val1 + "'>" + val1 + "</option>");
+              });
+              $('#hello').html(datalist);
+              $('#services').html(datalist1);
+              $('#hello').selectpicker(multiselectEnable);
+              $('#services').selectpicker(multiselectEnable);
+              google_maps(val);
+            }});
+      
+      }); 
+      
+    });
+    </script>
+
+       <script type="text/javascript">
+
+      $(document).ready(function () {
+        $('#form1').validate({
+          errorClass: "my-error-class",
+          validClass: "my-valid-class",
+          //errorClass: 'jqInvalid',
+           //errorClass: "my-error-class",
+          //}
+        rules: {
+             services : { required: true},
+             regions : { required : true}, 
+             fromdate : { required: true },
+             todate: { required: true },
+        },
+        messages: {
+             regions: "Select Regions",
+             services: "Select Services", 
+             fromdate: "Select From-Date",
+             todate: "Select To-Date",
+        },
+      });
+        $("#run1").click(function(){
+        $("#validation").submit();
+       // errorPlacement: function (error, element) {
+           // element.css('background', '#ffdddd');
+       // }  
+        
+    });  
+    });    
+      </script>
+
+
+  </head>
+
+  <body  class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+
+      <!-- Main Header -->
+      <header class="main-header">
+
+        <!-- Logo -->
+        <a href="/necloudweather/" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini">
+          <img src="{%static "images/netenrich_logo.png" %}" />
+          </span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"> <img src="{%static "images/netenrich_logo.png" %}" width="120px"/></span>
+        </a>
+        <!-- Header Navbar -->
+        <nav class="navbar navbar-static-top" role="navigation">
+
+          <!-- Navbar Right Menu -->
+          <div class="navbar-custom-menu">
+          <form class="navbar-form navbar-left">
+            <ul class="nav navbar-nav">
+              <!-- Messages: style can be found in dropdown.less-->
+                {% if user != "no_user"%}
+                        <div class="dropdown pull-right">
+                            <div class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               <i class="glyphicon glyphicon-user" color= "white" aria-hidden="true"></i> <label size="3px"  color="white" >{{user}}</label> 
+                                <span  class="caret"></span>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/profile/" name="net" id="net"  data="profile"><span class="glyphicon glyphicon-tasks"></span>Saved Items </a></li>
+                                <li><a href="/logout/"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                            </ul>
+                        </div>
+             
+            {% else %}
+                        <div class="dropdown pull-right">
+                            <div class="btn dropdown-toggle" class="glyphicon glyphicon-log-in" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="glyphicon glyphicon-log-in"  aria-hidden="true"></i> Sign In
+
+				<span class="caret"></span>
+                            </div>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="/registration"><span class="glyphicon glyphicon-registration-mark"></span>Register</a></li>
+                                <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login </a></li>
+                            </ul>
+                        </div>
+
+            {% endif %}
+
+            </ul>
+            </form>
+          </div>
+        </nav> 
+
+
+
+      </header>
+
+
+
+    <aside class="main-sidebar">
+
+        <!-- sidebar: style can be found in sidebar.less -->
+        <form name="form1" class="sidebar" id="form1" action="results/" method="POST">
+            {% csrf_token %}
+            <div style="color:white; padding:29px 20px;">
+
+
+                    <div class="form-group"  >
+                     <label class="lable_heading">Select Cloud Environment</label>
+
+                      <div class="radio" name= "environment">
+                        <label>                                                                                                                                                                                                                                                                                                                                       <input value="AWS" name= "environment" checked=""  type="radio">
+                          Amazon Web Services
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input value="Azure"  name = "environment" type="radio">
+                          Microsoft Azure
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input value="Google"  name = "environment" type="radio">
+                          Google Cloud
+                        </label>
+                      </div>
+                    </div>
+                    <div class="form-group" >
+                      <label class="lable_heading">Regions</label>
+                        <div class="controls">
+                        <select id="hello" name ="regions" class="selectpicker show-menu-arrow" multiple  data-live-search="true" multiple data-selected-text-format="count > 3" data-width="100%" data-dropup-auto="false" data-size="5" multiple data-actions-box="true" title="Select Region">
+                          {% for region in regions %}
+                            <option value="{{ region }}">{{ region }}</option>
+                          {% endfor %}
+
+                          </select>
+                          </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="lable_heading">Services</label>
+
+                        <select  name="services" id="services"  class="selectpicker show-menu-arrow" multiple data-live-search="true" multiple data-selected-text-format="count > 3 " data-width="100%" data-dropup-auto="false" data-size="5" multiple data-actions-box="true" title="Select Services" >
+                          {% for service in services %}
+                            <option value="{{ service }}">{{ service }}</option>
+                          {% endfor %}
+
+                        </select>
+                    </div>
+        <div class="form-group">
+                    <label class="lable_heading">Date and time range</label>
+                     <!-- Date and time range -->
+                  <div>
+                        From:
+			<br>
+                            <input class="datepicker" style="color:black;" name="fromdate">
+		<br>	TO:
+			<br>
+			<input class="datepicker" style="color:black;" name="todate">
+                      <br>
+                   </div>
+            </div>
+          <input type="hidden" name="saveorrun" value="0" id="saveorrun">
+            <button type="submit"  class="btn btn-info btn-sm" onClick="save_this()"><i class="fa fa-floppy-o" aria-hidden="true"></i> &nbsp;   Save</button>
+            <!--<button class="btn btn-info btn-sm" type="submit" ><b>Save</b></button>-->
+            <button type="submit" class="btn btn-primary btn-sm pull-right" name="run1" ><i class="fa fa-play" aria-hidden="true"></i> &nbsp; Run</button>
+            </div>
+
+
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+
+      <!-- Content Wrapper. Contains page content -->
+
+  <div id="map" name="map" style="height: 92%; width: 100%;">
+
+<script type="text/javascript">
+function save_this(){
+    $('#saveorrun').val(1);
+}
+$('#net').click(function(e){
+   e.preventDefault();
+   var urrl = $(this).attr('data');
+ 
+   $.get('http://ec2-52-66-116-26.ap-south-1.compute.amazonaws.com/'+urrl, function(html){
+
+       $('.content').html(html);
+   });
+});
+  google_maps('AWS');
+  function google_maps(env) {
+    if (env == 'AWS') {
+      var locations = [
+          ['N. Virginia',37.4316,-78.6569,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Ohio',40.4173,-82.9071,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Mumbai',19.0760,72.8777,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['SaoPaulo',-23.5505199,-46.63330939999997,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['N. California',36.7783,-119.4179,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Oregon',43.8041,-120.5542,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Canada',56.1304,-106.3468,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Ireland',53.4129,-8.2439,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Frankfurt',50.1109,8.6821,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['London',51.5074,-0.1278,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Tokyo',35.6895,139.6917,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Seoul',37.566535,126.97796919999996,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Singapore',1.352083,103.819836,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+          ['Sydney',-33.8674869,151.20699020000006,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_orange.png','AWS'],
+      ];
+    }
+   if (env == 'Google') {
+      var locations = [
+          ['Iowa',41.261944,-95.860833,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['US',39.896251704652826,-103.5175783932209,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['N.Virginia',39.043757,-77.487442,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['South Carolina',33.196003,-80.013137,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Belgium',50.449109,3.818376,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['London',51.507351,-0.127758,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Singapore',1.340390,103.708988,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Taiwan',24.051796,120.516135,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Tokyo',35.689487,139.691706,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Sydney',-33.868820,151.209296,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Europe',53.0000,9.0000,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Asia',34.0479,100.6197,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+          ['Oregon',43.8041,-120.5542,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_green.png','Google'],
+
+      ];
+    } 
+   if (env == 'Azure') {
+      var locations = [
+        ['East US',37.431573,-78.656894,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','EastUS'],
+        ['East US2',39.186219,-78.161800,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','East US2'],
+        ['Central US',42.490332,-94.204009,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','Central US'],
+        ['North Central US',40.633125,-89.398528,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','North Central US'],
+        ['South Central US',31.968599,-99.901813,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','South Central US'],
+        ['West Central US',39.872812,-105.073277,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure','West Central US'],
+        ['West US2',47.395710,-94.779830,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure'],
+        ['West US',37.268323,-79.944322,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Aure'],
+        ['Southeast Asia',1.352083,103.819836,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['East Asia',22.396428,114.109497,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Australia East',-31.253218,146.921099,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Australia Southeast',28.805267,-97.003598,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['China East',31.230390,121.473702,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['China North',39.904200,116.407396,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Central India',18.520430,73.856744,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['West India',19.075984,72.877656,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['South India',13.082680,80.270718,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Japan East',35.856999,139.648849,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Japan West',34.693738,135.502165,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Korea Central',37.566535,126.977969,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Korea South',35.179554,129.075642,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['North Europe',53.142367,-7.692054,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['West Europe',52.132633,5.291266,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Germany Central',50.110922,8.682127,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['Germany Northeast',52.120533,11.627624,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['UK West',51.481581,-3.179090,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure'],
+        ['UK South',51.507351,-0.127758,'http://maps.gstatic.com/mapfiles/ridefinder-images/mm_20_blue.png','Azure']
+      ];
+    }
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 2,
+        center: new google.maps.LatLng(13.92, 17.25),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+
+      var infowindow = new google.maps.InfoWindow();
+      var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+
+      var marker, i;
+
+      for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+          animation: google.maps.Animation.DROP,
+          position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+          map: map,
+          icon: locations[i][3]
+        });
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+          return function() {
+              var loc=locations[i][0]
+              var url= " target=_blank href=loadregion/?region="
+              var url1=url.concat(loc.replace(/ /g,''),'(',locations[i][4],')' )
+              infowindow.setContent("<a '"+url1+">"+ locations[i][0] +"</a>" );
+              infowindow.open(map, marker);
+          
+            
+          }
+        })(marker, i));
+      }
+  }
+    
+</script>
+
+
+
+
+
+      </div><!-- /.content-wrapper -->
+
+      <!-- Main Footer -->
+
+    <!-- REQUIRED JS SCRIPTS -->
+
+    <!-- jQuery 2.1.4 -->
+
+
+    <!--  App -->
+
+    <!-- Optionally, you can add Slimscroll and FastClick plugins.
+         Both of these plugins are recommended to enhance the
+         user experience. Slimscroll is required when using the
+         fixed layout. -->
+  </body>
+
+</html>
+
